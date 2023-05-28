@@ -9,3 +9,5 @@ export const YOUTUBE_VIDEOS_API =
 export const GET_VIDEO_CATEGORIES_LIST = "https://www.googleapis.com/youtube/v3/videoCategories?part=snippet&regionCode=IN&key=" + GOOGLE_API_KEY;
 
 export const YOUTUBE_SEARCH_API = "http://suggestqueries.google.com/complete/search?client=firefox&ds=yt&q=";
+
+export const OFFSET_LIVE_CHAT = 10;
