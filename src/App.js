@@ -5,6 +5,7 @@ import Header from "./components/Header";
 import Body from "./components/Body";
 import MainContainer from "./components/MainContainer";
 import VideoContainer from "./components/VideoContainer";
+import Demo from "./components/Demo";
 
 function App() {
   return (
@@ -41,6 +42,10 @@ const appRouter = createBrowserRouter([
       {
         path: "watch",
         element: <VideoContainer/>
+      },
+      {
+        path: "demo",
+        element: <Demo/>
       }
     ]
   },
